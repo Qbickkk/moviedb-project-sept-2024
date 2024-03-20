@@ -1,0 +1,26 @@
+.Header{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: snow;
+    font-size: 35px;
+}
+
+.Header a{
+    text-decoration: none;
+    color: snow;
+}
+
+.Links a[class='active']{
+    color: red;
+    font-size: 40px;
+}
+
+.Links{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

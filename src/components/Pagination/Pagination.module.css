@@ -1,0 +1,20 @@
+.Pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Button{
+    text-align: center;
+    margin: 2rem;
+    font-size: 20px;
+    text-decoration: none;
+    background:  grey;
+    height: 40px;
+    padding: 0;
+    color: white;
+}
+
+.Button:hover{
+    background: #7b7da4;
+}
